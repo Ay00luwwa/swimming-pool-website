@@ -1,0 +1,766 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  animation: animate 48s ease-in-out infinite;
+}
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 200px;
+  cursor: pointer;
+  padding: 0 10px;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.navbar ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #0077b6;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after {
+  width: 100%;
+}
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+}
+.content h1 {
+  font-size: 70px;
+  margin-top: 80px;
+}
+.content p {
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+.button {
+  width: 200px;
+  padding: 15px;
+  text-align: center;
+  margin: 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 1px solid #021a1c;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+span {
+  background: #0077b6;
+  height: 100;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+button:hover span {
+  width: 100%;
+}
+button:hover {
+  border: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navbar ul {
+    margin-top: 20px;
+  }
+
+  .navbar ul li {
+    margin: 10px 0;
+  }
+
+  .content {
+    top: 40%;
+  }
+
+  .content h1 {
+    font-size: 40px;
+  }
+
+  .content p {
+    font-size: 16px;
+  }
+
+  button {
+    width: 150px;
+    padding: 10px;
+  }
+
+  .element-page {
+    height: auto;
+  }
+
+  .element-page .image {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  .element-page .text-wrapper,
+  .element-page .makind-maintenance,
+  .element-page .sed-ut-perspiciatis,
+  .element-page .div {
+    position: static;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .element-page .arrow {
+    position: static;
+    margin-top: 20px;
+  }
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    background-image: url(/assets/images/img/image1.png);
+  }
+  25% {
+    background-image: url(/assets/images/img/homeBackground.jpg);
+  }
+  50% {
+    background-image: url(/assets/images/img/image\ 15.png);
+  }
+  75% {
+    background-image: url(/assets/images/img/image\ 7.png);
+  }
+}
+
+.element-page {
+  position: relative;
+  width: 100%;
+  height: 790px;
+  background-color: #cce9f2;
+}
+
+.element-page .rectangle {
+  position: absolute;
+  width: 590px;
+  height: 490px;
+  top: 165px;
+  left: 65px;
+  border-radius: 34px;
+  border: 8px solid;
+  border-color: #0077b6;
+}
+
+.element-page .overlap-group {
+  position: relative;
+  height: 600px;
+}
+
+.element-image {
+  position: absolute;
+  width: 45%;
+  height: 500px;
+  top: 194px;
+  right: 720px;
+  object-fit: cover;
+  border-radius: 20px;
+  flex: 1;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.element-image :hover {
+  transform: scale(1.1);
+}
+
+.element-page .text-wrapper {
+  position: absolute;
+  z-index: 1;
+  top: 193px;
+  right: 300px;
+  font-family: "Open Sans-CondensedBold", Helvetica;
+  font-weight: 700;
+  color: #0077b6;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element-page .makind-maintenance {
+  position: absolute;
+  top: 250px;
+  right: 190px;
+  font-family: "Open Sans-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+/* .maintenance{
+  color:#008080 ;
+}
+
+.cleaning{
+  color: #008080;
+} */
+
+.service-check ul {
+  list-style: none;
+}
+
+.service-check {
+  font-family: "Open Sans-Light" ,Helvetica;
+  font-size: 16px;
+  padding-left: 20px;
+  font-weight: 600;
+  position: absolute;
+  right: 300px;
+  text-transform: capitalize;
+  color: #0077b6;
+}
+
+.service-check-icon{
+  color: #008080;
+  padding: 10px;
+}
+
+
+.element-page .sed-ut-perspiciatis {
+  position: absolute;
+  top: 350px;
+  right: 52px;
+  font-family: "Playfair Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #409bc9;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element-page .readmore {
+  position: absolute;
+  top: 520px;
+  right: 471px;
+  font-family: "Playfair Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #0077b6;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.readmore-button {
+  height: 9vh;
+  width: 150%;
+  border: 1px;
+  border-radius: 10px;
+  background-color: #008080;
+  color: white;
+  text-transform: capitalize;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.readmore-button:hover {
+  background-color: #159292; /* Change the background color on hover */
+}
+
+.readmore a {
+  text-decoration: none;
+  color: #0077b6;
+}
+
+.m-v {
+  width: 100%;
+  height: 1024px;
+  background-color: #ffffff;
+}
+
+.m-v .overlap {
+  position: relative;
+  height: 1003px;
+  top: 21px;
+}
+
+.m-v .overlap-group {
+  position: absolute;
+  width: 100%;
+  height: 1003px;
+  top: 0;
+  left: 0;
+}
+
+.m-v .text-wrapper {
+  position: absolute;
+  top: 587px;
+  left: 707px;
+  font-family: "Open Sans-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #0077b6;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.m-v .makind-technical-is {
+  position: absolute;
+  top: 355px;
+  left: 707px;
+  font-family: "Playfair Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.m-v .div {
+  position: absolute;
+  top: 205px;
+  left: 607px;
+  font-family: "Open Sans-LightItalic", Helvetica;
+  font-weight: 300;
+  font-style: italic;
+  color: #008080;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.m-v .swimming-pool-repair {
+  position: absolute;
+  top: 246px;
+  left: 607px;
+  font-family: "Open Sans-CondensedBold", Helvetica;
+  font-weight: 700;
+  color: #0077b6;
+  font-size: 42px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.m-v .image {
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  top: 0;
+  left: 1090px;
+  object-fit: cover;
+}
+
+.m-v .button-info {
+  position: absolute;
+  width: 170px;
+  height: 50px;
+  top: 877px;
+  left: 724px;
+}
+
+.m-v .div-wrapper {
+  position: relative;
+  width: 204px;
+  height: 57px;
+  background-color: #d9d9d9;
+  border-radius: 18px 0px 18px 0px;
+}
+
+.m-v .text-wrapper-2 {
+  position: absolute;
+  top: 12px;
+  left: 28px;
+  font-family: "Open Sans-CondensedBold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.m-v .group {
+  position: absolute;
+  width: 590px;
+  height: 766px;
+  top: 20;
+  left: 18px;
+}
+
+.m-v .wave-vector {
+  position: absolute;
+  width: 1440px;
+  height: 69px;
+  top: 934px;
+  left: 0;
+}
+
+.m-v .at-makind-technical {
+  position: absolute;
+  width: 344px;
+  top: 633px;
+  left: 704px;
+  font-family: "Playfair Display-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.m-v .text-wrapper-3 {
+  position: absolute;
+  top: 587px;
+  left: 1085px;
+  font-family: "Open Sans-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #0077b6;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.m-v .our-vision-is-to-be {
+  position: absolute;
+  width: 330px;
+  top: 633px;
+  left: 1085px;
+  font-family: "Playfair Display-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.m-v .line {
+  position: absolute;
+  width: 7px;
+  height: 243px;
+  top: 602px;
+  left: 1055px;
+}
+
+.portfolio {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background-color: #cce9f2;
+  overflow: hidden;
+}
+
+.portfolio .text-wrapper {
+  position: absolute;
+  top: 49px;
+  left: 666px;
+  font-family: "Open Sans-CondensedBold", Helvetica;
+  font-weight: 700;
+  color: #008080;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio .portfolio-img {
+  position: absolute;
+  width: 1661px;
+  height: 1156px;
+  top: 158px;
+  left: -1px;
+}
+
+.portfolio .overlap {
+  position: relative;
+  width: 1440px;
+  height: 866px;
+  left: 1px;
+}
+
+.portfolio .overlap-group {
+  position: absolute;
+  width: 1440px;
+  height: 866px;
+  top: 0;
+  left: 0;
+}
+
+.portfolio .div {
+  position: absolute;
+  width: 917px;
+  height: 866px;
+  top: 0;
+  left: 523px;
+}
+
+.portfolio .image {
+  position: absolute;
+  width: 678px;
+  height: 608px;
+  top: 0;
+  left: 239px;
+}
+
+.portfolio .img {
+  position: absolute;
+  width: 450px;
+  height: 535px;
+  top: 331px;
+  left: 0;
+  object-fit: cover;
+}
+
+.portfolio .image-2 {
+  position: absolute;
+  width: 538px;
+  height: 323px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.portfolio .image-3 {
+  position: absolute;
+  width: 462px;
+  height: 254px;
+  top: 612px;
+  left: 978px;
+  object-fit: cover;
+}
+
+.portfolio .image-4 {
+  position: absolute;
+  width: 516px;
+  height: 535px;
+  top: 331px;
+  left: 0;
+  object-fit: cover;
+}
+
+.testimonial-s-page {
+  width: 1440px;
+  height: 1024px;
+  background-color: #ffffff;
+}
+
+.testimonial-s-page .overlap {
+  position: relative;
+  height: 1024px;
+}
+
+.testimonial-s-page .overlap-group {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  top: 0;
+  left: 0;
+}
+
+.testimonial-s-page .group {
+  position: absolute;
+  width: 797px;
+  height: 1024px;
+  top: 0;
+  left: 643px;
+}
+
+.testimonial-s-page .image {
+  position: absolute;
+  width: 726px;
+  height: 539px;
+  top: 91px;
+  left: 664px;
+  object-fit: cover;
+}
+
+.testimonial-s-page .testimonial-box {
+  position: absolute;
+  width: 724px;
+  height: 470px;
+  top: 414px;
+  left: 35px;
+}
+
+.testimonial-s-page .div {
+  position: relative;
+  width: 720px;
+  height: 470px;
+}
+
+.testimonial-s-page .rectangle {
+  position: absolute;
+  width: 720px;
+  height: 455px;
+  top: 15px;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px #0000004c;
+}
+
+.testimonial-s-page .AFRICAN-RE-INSURANCE {
+  position: absolute;
+  top: 384px;
+  left: 109px;
+  font-family: "Open Sans-Bold", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.testimonial-s-page .text-wrapper {
+  font-weight: 700;
+}
+
+.testimonial-s-page .span {
+  font-family: "Playfair Display-Italic", Helvetica;
+  font-style: italic;
+}
+
+.testimonial-s-page .rating {
+  position: absolute;
+  width: 251px;
+  height: 53px;
+  top: 57px;
+  left: 59px;
+}
+
+.testimonial-s-page .ic-round-star {
+  position: absolute;
+  width: 50px;
+  height: 53px;
+  top: 0;
+  left: 0;
+}
+
+.testimonial-s-page .img {
+  left: 50px;
+  position: absolute;
+  width: 50px;
+  height: 53px;
+  top: 0;
+}
+
+.testimonial-s-page .ic-round-star-2 {
+  left: 100px;
+  position: absolute;
+  width: 50px;
+  height: 53px;
+  top: 0;
+}
+
+.testimonial-s-page .ic-round-star-3 {
+  left: 151px;
+  position: absolute;
+  width: 50px;
+  height: 53px;
+  top: 0;
+}
+
+.testimonial-s-page .ic-round-star-4 {
+  left: 201px;
+  position: absolute;
+  width: 50px;
+  height: 53px;
+  top: 0;
+}
+
+.testimonial-s-page .vector {
+  position: absolute;
+  width: 73px;
+  height: 75px;
+  top: 0;
+  left: 551px;
+}
+
+.testimonial-s-page .outstanding-service {
+  position: absolute;
+  width: 564px;
+  top: 135px;
+  left: 51px;
+  font-family: "Playfair Display-Italic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.testimonial-s-page .line {
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  top: 811px;
+  left: 87px;
+}
+
+.testimonial-s-page .vector-2 {
+  position: absolute;
+  width: 1440px;
+  height: 123px;
+  top: 901px;
+  left: 0;
+}
+
+.testimonial-s-page .text-wrapper-2 {
+  position: absolute;
+  top: 151px;
+  left: 144px;
+  font-family: "Playfair Display-SemiBoldItalic", Helvetica;
+  font-weight: 600;
+  font-style: italic;
+  color: #008080;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.testimonial-s-page .what-our-clients-say {
+  position: absolute;
+  top: 194px;
+  left: 144px;
+  font-family: "Open Sans-CondensedBold", Helvetica;
+  font-weight: 700;
+  color: #0077b6;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
