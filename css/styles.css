@@ -333,7 +333,7 @@ button:hover {
 .m-v .text-wrapper {
   position: absolute;
   top: 587px;
-  left: 707px;
+  left: 607px;
   font-family: "Open Sans-SemiBold", Helvetica;
   font-weight: 600;
   color: #0077b6;
@@ -345,7 +345,7 @@ button:hover {
 .m-v .makind-technical-is {
   position: absolute;
   top: 355px;
-  left: 707px;
+  left: 607px;
   font-family: "Playfair Display-Regular", Helvetica;
   font-weight: 400;
   color: #000000;
@@ -381,10 +381,10 @@ button:hover {
 
 .m-v .image {
   position: absolute;
-  width: 250px;
+  width: 270px;
   height: 300px;
   top: 0;
-  left: 1090px;
+  left: 1069px;
   object-fit: cover;
 }
 
