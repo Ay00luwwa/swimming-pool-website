@@ -7,10 +7,10 @@
 
 .desktop .image {
   position: absolute;
-  width: 228px;
-  height: 231px;
-  top: 0;
-  left: 1189px;
+  width: 200px;
+  height: 200px;
+  top: -30;
+  left: 1119px;
   object-fit: cover;
 }
 
@@ -428,7 +428,7 @@
 .desktop .text-wrapper-8 {
   position: absolute;
   top: 281px;
-  left: 1163px;
+  left: 1150px;
   font-family: "Open Sans-Bold", Helvetica;
   font-weight: 700;
   color: #ffffff;
@@ -441,7 +441,7 @@
   position: absolute;
   width: 267px;
   top: 342px;
-  left: 1163px;
+  left: 1000px;
   font-family: "Open Sans-Bold", Helvetica;
   font-weight: 700;
   color: #ffffff;
@@ -454,7 +454,7 @@
   position: absolute;
   width: 149px;
   top: 389px;
-  left: 1163px;
+  left: 1000px;
   font-family: "Open Sans-Bold", Helvetica;
   font-weight: 700;
   color: #ffffff;

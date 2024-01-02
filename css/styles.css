@@ -2,7 +2,11 @@
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  box-sizing: border-box;
+  max-width: 100%;
 }
+
+
 
 .banner {
   width: 100%;
@@ -644,11 +648,11 @@ button:hover {
 }
 
 .testimonial-s-page .group {
-  position: absolute;
-  width: 705px;
-  height: 1024px;
-  top: 0;
-  left: 643px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  left: 40.8%;
+  /* width: 744px; */
 }
 
 .testimonial-s-page .image {
@@ -798,6 +802,7 @@ button:hover {
 .testimonial-s-page .vector-2 {
   position: absolute;
   width: 100%;
+  overflow: hidden;
   height: 123px;
   top: 901px;
   left: 0;
