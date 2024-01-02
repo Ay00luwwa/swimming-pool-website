@@ -295,6 +295,7 @@ button:hover {
   border: 1px;
   border-radius: 5px;
   background-color: #008080;
+  cursor: pointer;
   color: white;
   text-transform: capitalize;
   transition: background-color 0.3s ease; /* Add a smooth transition effect */
