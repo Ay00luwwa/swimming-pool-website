@@ -250,7 +250,7 @@ button:hover {
 }
 
 .service-check {
-  font-family: "Open Sans-Light" ,Helvetica;
+  font-family: "Open Sans-Light", Helvetica;
   font-size: 16px;
   padding-left: 20px;
   font-weight: 600;
@@ -260,11 +260,10 @@ button:hover {
   color: #0077b6;
 }
 
-.service-check-icon{
+.service-check-icon {
   color: #008080;
   padding: 10px;
 }
-
 
 .element-page .sed-ut-perspiciatis {
   position: absolute;
@@ -280,9 +279,9 @@ button:hover {
 
 .element-page .readmore {
   position: absolute;
-  top: 520px;
+  top: 530px;
   right: 471px;
-  font-family: "Playfair Display-Regular", Helvetica;
+  font-family: "Playfair Display", Helvetica;
   font-weight: 400;
   color: #0077b6;
   font-size: 16px;
@@ -291,10 +290,10 @@ button:hover {
 }
 
 .readmore-button {
-  height: 9vh;
+  height: 7vh;
   width: 150%;
   border: 1px;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #008080;
   color: white;
   text-transform: capitalize;
@@ -332,7 +331,7 @@ button:hover {
 
 .m-v .text-wrapper {
   position: absolute;
-  top: 587px;
+  top: 505px;
   left: 607px;
   font-family: "Open Sans-SemiBold", Helvetica;
   font-weight: 600;
@@ -344,14 +343,17 @@ button:hover {
 
 .m-v .makind-technical-is {
   position: absolute;
-  top: 355px;
+  top: 342px;
   left: 607px;
-  font-family: "Playfair Display-Regular", Helvetica;
+  font-family: "Playfair Display", Helvetica;
   font-weight: 400;
   color: #000000;
   font-size: 20px;
   letter-spacing: 0;
   line-height: normal;
+}
+.mv .button-info-link {
+  text-decoration: none;
 }
 
 .m-v .div {
@@ -388,33 +390,75 @@ button:hover {
   object-fit: cover;
 }
 
-.m-v .button-info {
-  position: absolute;
-  width: 170px;
+/* .m-v .button-info {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  color: white;
+  width: 190px;
   height: 50px;
-  top: 877px;
-  left: 724px;
-}
+  top: 807px;
+  left: 604px;
+  border-radius: 10px;
+  cursor: pointer;
+} */
 
 .m-v .div-wrapper {
   position: relative;
-  width: 204px;
+  width: 190px;
   height: 57px;
+  text-align: center;
+  text-transform: uppercase;
   background-color: #d9d9d9;
   border-radius: 18px 0px 18px 0px;
 }
 
-.m-v .text-wrapper-2 {
+.button-info {
+  background-color: #008080; /* Set your desired background color */
+  color: #ffffff; /* Set your desired text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none;
   position: absolute;
+  top: 780px;
+  left: 600px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.button-info:hover {
+  background-color: #159292; /* Change background color on hover */
+}
+
+.text-wrapper-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.text-wrapper-2 i {
+  margin-left: 10px; /* Adjust spacing between text and icon */
+}
+
+/* Font Awesome styling (assuming you're using version 4) */
+.fa {
+  font-size: 16px; /* Set your desired icon size */
+}
+
+/* .m-v .text-wrapper-2 {
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
   top: 12px;
-  left: 28px;
+  left: 20px;
   font-family: "Open Sans-CondensedBold", Helvetica;
   font-weight: 700;
   color: #000000;
-  font-size: 19px;
+  font-size: 15px;
   letter-spacing: 0;
   line-height: normal;
-}
+} */
 
 .m-v .group {
   position: absolute;
@@ -426,7 +470,7 @@ button:hover {
 
 .m-v .wave-vector {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 69px;
   top: 934px;
   left: 0;
@@ -435,20 +479,20 @@ button:hover {
 .m-v .at-makind-technical {
   position: absolute;
   width: 344px;
-  top: 633px;
-  left: 704px;
-  font-family: "Playfair Display-SemiBold", Helvetica;
-  font-weight: 600;
+  top: 550px;
+  left: 604px;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 400;
   color: #000000;
-  font-size: 15px;
+  font-size: 17px;
   letter-spacing: 0;
   line-height: normal;
 }
 
 .m-v .text-wrapper-3 {
   position: absolute;
-  top: 587px;
-  left: 1085px;
+  top: 505px;
+  left: 985px;
   font-family: "Open Sans-SemiBold", Helvetica;
   font-weight: 600;
   color: #0077b6;
@@ -460,36 +504,39 @@ button:hover {
 .m-v .our-vision-is-to-be {
   position: absolute;
   width: 330px;
-  top: 633px;
-  left: 1085px;
-  font-family: "Playfair Display-SemiBold", Helvetica;
-  font-weight: 600;
+  top: 550px;
+  left: 985px;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 400;
   color: #000000;
-  font-size: 15px;
+  font-size: 17px;
   letter-spacing: 0;
   line-height: normal;
 }
 
 .m-v .line {
   position: absolute;
-  width: 7px;
+  width: 5px;
   height: 243px;
-  top: 602px;
-  left: 1055px;
+  top: 512px;
+  left: 925px;
 }
 
 .portfolio {
   position: relative;
-  width: 1440px;
+  width: 100%;
   height: 1024px;
   background-color: #cce9f2;
   overflow: hidden;
 }
 
 .portfolio .text-wrapper {
-  position: absolute;
+  position: relative;
+  /* padding: 3%; */
+  text-align: center;
+  align-items: center;
   top: 49px;
-  left: 666px;
+  /* left: 666px; */
   font-family: "Open Sans-CondensedBold", Helvetica;
   font-weight: 700;
   color: #008080;
@@ -497,6 +544,9 @@ button:hover {
   letter-spacing: 0;
   line-height: normal;
 }
+
+
+
 
 .portfolio .portfolio-img {
   position: absolute;
@@ -508,25 +558,17 @@ button:hover {
 
 .portfolio .overlap {
   position: relative;
+  left: 1px;
   width: 1440px;
   height: 866px;
-  left: 1px;
 }
 
 .portfolio .overlap-group {
   position: absolute;
-  width: 1440px;
-  height: 866px;
   top: 0;
   left: 0;
-}
-
-.portfolio .div {
-  position: absolute;
-  width: 917px;
+  width: 1440px;
   height: 866px;
-  top: 0;
-  left: 523px;
 }
 
 .portfolio .image {
@@ -534,19 +576,10 @@ button:hover {
   width: 678px;
   height: 608px;
   top: 0;
-  left: 239px;
+  left: 762px;
 }
 
 .portfolio .img {
-  position: absolute;
-  width: 450px;
-  height: 535px;
-  top: 331px;
-  left: 0;
-  object-fit: cover;
-}
-
-.portfolio .image-2 {
   position: absolute;
   width: 538px;
   height: 323px;
@@ -555,13 +588,21 @@ button:hover {
   object-fit: cover;
 }
 
+.portfolio .image-2 {
+  position: absolute;
+  width: 450px;
+  height: 535px;
+  top: 331px;
+  left: 523px;
+  object-fit: cover;
+}
+
 .portfolio .image-3 {
   position: absolute;
-  width: 462px;
-  height: 254px;
-  top: 612px;
-  left: 978px;
-  object-fit: cover;
+  width: 1172px;
+  height: 324px;
+  top: 0;
+  left: 176px;
 }
 
 .portfolio .image-4 {
@@ -573,8 +614,17 @@ button:hover {
   object-fit: cover;
 }
 
+.portfolio .image-5 {
+  position: absolute;
+  width: 462px;
+  height: 254px;
+  top: 612px;
+  left: 978px;
+  object-fit: cover;
+}
+
 .testimonial-s-page {
-  width: 1440px;
+  width: 100%;
   height: 1024px;
   background-color: #ffffff;
 }
@@ -594,18 +644,18 @@ button:hover {
 
 .testimonial-s-page .group {
   position: absolute;
-  width: 797px;
+  width: 705px;
   height: 1024px;
   top: 0;
   left: 643px;
 }
 
 .testimonial-s-page .image {
-  position: absolute;
-  width: 726px;
+  width: 660px;
   height: 539px;
-  top: 91px;
+  top: 41px;
   left: 664px;
+  position: absolute;
   object-fit: cover;
 }
 
@@ -625,8 +675,8 @@ button:hover {
 
 .testimonial-s-page .rectangle {
   position: absolute;
-  width: 720px;
-  height: 455px;
+  width: 660px;
+  height: 300px;
   top: 15px;
   left: 0;
   background-color: #ffffff;
@@ -634,24 +684,27 @@ button:hover {
 }
 
 .testimonial-s-page .AFRICAN-RE-INSURANCE {
-  position: absolute;
-  top: 384px;
-  left: 109px;
-  font-family: "Open Sans-Bold", Helvetica;
-  font-weight: 400;
+  position: relative;
+  top: 259px;
+  left: 115px;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 900;
   color: #000000;
-  font-size: 20px;
+  font-size: 15px;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.testimonial-s-page .text-wrapper {
+.testimonial-s-page .text-wrapper-7 {
   font-weight: 700;
 }
 
-.testimonial-s-page .span {
+.testimonial-s-page .span-2 {
   font-family: "Playfair Display-Italic", Helvetica;
   font-style: italic;
+  position: relative;
+  top: 230px;
+  left: 115px;
 }
 
 .testimonial-s-page .rating {
@@ -719,22 +772,31 @@ button:hover {
   font-weight: 400;
   font-style: italic;
   color: #000000;
-  font-size: 32px;
+  font-size: 20px;
   letter-spacing: 0;
   line-height: normal;
+}
+
+.testimonial-s-page .image-2 {
+  width: 278px;
+  height: 56px;
+  top: 200px;
+  left: 380px;
+  position: absolute;
+  object-fit: cover;
 }
 
 .testimonial-s-page .line {
   position: absolute;
   width: 50px;
   height: 2px;
-  top: 811px;
+  top: 700px;
   left: 87px;
 }
 
 .testimonial-s-page .vector-2 {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 123px;
   top: 901px;
   left: 0;
@@ -743,12 +805,12 @@ button:hover {
 .testimonial-s-page .text-wrapper-2 {
   position: absolute;
   top: 151px;
-  left: 144px;
+  left: 100px;
   font-family: "Playfair Display-SemiBoldItalic", Helvetica;
   font-weight: 600;
   font-style: italic;
   color: #008080;
-  font-size: 32px;
+  font-size: 26px;
   letter-spacing: 0;
   line-height: normal;
 }
@@ -756,11 +818,11 @@ button:hover {
 .testimonial-s-page .what-our-clients-say {
   position: absolute;
   top: 194px;
-  left: 144px;
+  left: 100px;
   font-family: "Open Sans-CondensedBold", Helvetica;
   font-weight: 700;
   color: #0077b6;
-  font-size: 48px;
+  font-size: 39px;
   letter-spacing: 0;
   line-height: normal;
 }
