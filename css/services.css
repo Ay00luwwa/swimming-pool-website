@@ -1,7 +1,7 @@
 .services-page {
   position: relative;
   width: 100%;
-  height: 150%;
+  height: 100%;
   background-color: #d9d9f159;
   overflow: hidden;
   padding: 10px;
@@ -10,7 +10,7 @@
 .services-page .services-head-text {
   position: relative;
   width: 100%;
-  height: 181px;  
+  height: 181px;
   top: 16px;
   left: 443px;
 }
@@ -58,4 +58,14 @@
   top: 197px;
   left: 1440px;
   background-color: #c0c0c0;
+}
+
+.services-page .projects-page-center {
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.services-page .single-project {
+  height: 50vh;
 }

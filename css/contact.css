@@ -333,6 +333,14 @@
   left: 553px;
 }
 
+.desktop a{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+}
+
+
+
 .desktop .text-wrapper-2 {
   position: absolute;
   top: 0;
