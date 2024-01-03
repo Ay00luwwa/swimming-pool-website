@@ -2,7 +2,8 @@
   position: relative;
   width: 100%;
   height: 100%;
-  background-color: #d9d9f159;
+  /* background-color:  #d9d9f159; */
+  background: linear-gradient( #CCE9F2, #d9d9f159, #bad7e2, #87CEEB, #c1dbe7, #d5e7ee, #ffffff );
   overflow: hidden;
   padding: 10px;
 }
