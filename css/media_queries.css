@@ -1,0 +1,128 @@
+@media screen and (min-width: 480px) {
+  .banner {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .button {
+    width: 50vh;
+  }
+
+  .content {
+    justify-content: center;
+  }
+
+  .content h1{
+    font-size: 10px;
+  }
+
+  .sidebar {
+    width: 50%;
+    height: 50%;
+    background: #ffffff;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 499px) {
+  .banner {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .button {
+    width: 50vh;
+  }
+
+  .content {
+    justify-content: center;
+  }
+
+  .sidebar {
+    width: 50%;
+    height: 50%;
+    background: #ffffff;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 479px) {
+  .banner {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .button {
+    width: 50vh;
+  }
+
+  .content {
+    justify-content: center;
+  }
+
+  .sidebar {
+    width: 50%;
+    height: 50%;
+    background: #ffffff;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 374px) {
+  .banner {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .button {
+    width: 50vh;
+  }
+
+  .content {
+    justify-content: center;
+  }
+
+  .sidebar {
+    width: 50%;
+    height: 50%;
+    background: #ffffff;
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 359px) {
+  .banner {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .button {
+    width: 50vh;
+  }
+
+  .content {
+    justify-content: center;
+  }
+
+  .sidebar {
+    width: 50%;
+    height: 50%;
+    background: #ffffff;
+  }
+}

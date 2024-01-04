@@ -6,7 +6,9 @@
   max-width: 100%;
 }
 
-
+.sidebar{
+  display: none;
+}
 
 .banner {
   width: 100%;
@@ -104,6 +106,21 @@ button:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navbar-links {
+    display: none; /* Hide the original links in mobile view */
+  }
+
+
+  .content {
+    top: 40%;
+  }
+
   .navbar {
     flex-direction: column;
     align-items: center;
@@ -299,7 +316,7 @@ button:hover {
 
 .readmore-button {
   height: 7vh;
-  width: 150%;
+  width: 13vh;
   border: 1px;
   border-radius: 5px;
   background-color: #008080;
