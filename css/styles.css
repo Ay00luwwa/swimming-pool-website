@@ -6,7 +6,7 @@
   max-width: 100%;
 }
 
-.sidebar{
+.sidebar {
   display: none;
 }
 
@@ -113,9 +113,8 @@ button:hover {
   }
 
   .navbar-links {
-    display: none; /* Hide the original links in mobile view */
+    display: none;
   }
-
 
   .content {
     top: 40%;
@@ -270,8 +269,6 @@ button:hover {
   list-style: none;
 }
 
-
-
 .service-check {
   font-family: "Open Sans-Light", Helvetica;
   font-size: 16px;
@@ -299,8 +296,6 @@ button:hover {
   letter-spacing: 0;
   line-height: normal;
 }
-
-
 
 .element-page .readmore {
   position: absolute;
@@ -440,20 +435,20 @@ button:hover {
 }
 
 .button-info {
-  background-color: #008080; /* Set your desired background color */
-  color: #ffffff; /* Set your desired text color */
-  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #008080;
+  color: #ffffff;
+  padding: 10px 20px;
   border: none;
   position: absolute;
   top: 780px;
   left: 600px;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Smooth transition on hover */
+  transition: background-color 0.3s ease;
 }
 
 .button-info:hover {
-  background-color: #159292; /* Change background color on hover */
+  background-color: #159292;
 }
 
 .text-wrapper-2 {
@@ -464,12 +459,11 @@ button:hover {
 }
 
 .text-wrapper-2 i {
-  margin-left: 10px; /* Adjust spacing between text and icon */
+  margin-left: 10px;
 }
 
-/* Font Awesome styling (assuming you're using version 4) */
 .fa {
-  font-size: 16px; /* Set your desired icon size */
+  font-size: 16px;
 }
 
 /* .m-v .text-wrapper-2 {
@@ -570,9 +564,6 @@ button:hover {
   letter-spacing: 0;
   line-height: normal;
 }
-
-
-
 
 .portfolio .portfolio-img {
   position: absolute;
@@ -852,4 +843,10 @@ button:hover {
   font-size: 39px;
   letter-spacing: 0;
   line-height: normal;
+}
+
+.fa {
+  position: relative;
+  background-color: #008080;
+  color: #cce9f2;
 }
