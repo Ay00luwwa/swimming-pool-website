@@ -674,6 +674,7 @@ button:hover {
   left: 664px;
   position: absolute;
   object-fit: cover;
+  border-radius: 20px;
 }
 
 .testimonial-s-page .testimonial-box {
@@ -845,8 +846,11 @@ button:hover {
   line-height: normal;
 }
 
-.fa {
+.icons {
   position: relative;
-  background-color: #008080;
-  color: #cce9f2;
+  /* background-color: #008080; */
+  color: #ffffff;
+  top: 170px;
+  list-style: none;
+  height: 100%;
 }
