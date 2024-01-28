@@ -861,7 +861,7 @@ button:hover {
   padding-top: 50px;
 }
 .campus-col {
-  flex-basis: 32%;
+  /* flex-basis: 32%; */
   border-radius: 10px;
   margin-bottom: 30px;
   position: relative;
